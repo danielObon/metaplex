@@ -22,12 +22,32 @@ Clone the repo, and run `yarn start` to deploy.
 
 ```bash
 $ git clone https://github.com/metaplex-foundation/metaplex.git
-$ cd metaplex/js
+$ nvm use 14.17
+$ npm install -g ts-node
+$ cd js
 $ yarn install && yarn bootstrap && yarn build
 $ yarn start
-```
 
 Navigate to `http://localhost:3000/` to explore the deployed application.
+
+## install solana and add to $PATH
+  https://docs.solana.com/cli/install-solana-cli-tools
+
+## config solana
+  solana config set --url https://api.devnet.solana.com
+
+  solana-keygen new --outfile ~/config/solana/devnettest.json
+
+  solana config set --keypair ~/config/solana/devnettest.json
+
+## add your assets and upload them
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts upload \
+    -e devnet \
+    -k ~/config/solana/devnettest.json \
+    -cp config.json \
+    -c example \
+    ./assets
+
 
 ## Rust Programs
 
