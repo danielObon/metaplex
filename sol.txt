@@ -1,11 +1,15 @@
 pub:
 	3NBnggCBpLkxr8HzxEF5QHEmiUcCheNfCgz6H7c7xYrh
+candyMatchine:
+	JBieLgwNctBkfnsNqTmR4erdZkDL636UTWEwGWCfD3Ez
+storeId:
+	AAnxcymUx2eyr4N3n8TCnzpfGTLoGad2v2hEAZBZhFvg
+
 seed:
 	initial grape token 
 	few jealous rookie 
 	prosper dish guess 
 	false plastic flip
-candyMatchine:
-	JBieLgwNctBkfnsNqTmR4erdZkDL636UTWEwGWCfD3Ez
 
-Xgn3xn9ptVEYVk8
+pass:
+	Xgn3xn9ptVEYVk8

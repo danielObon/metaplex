@@ -371,6 +371,7 @@ export async function sendSignedTransaction({
     },
   );
 
+  console.log('cm connection.tsx');
   console.log('Started awaiting confirmation for', txid);
 
   let done = false;

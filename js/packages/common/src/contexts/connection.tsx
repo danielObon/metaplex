@@ -680,6 +680,7 @@ export async function sendSignedTransaction({
     },
   );
 
+  console.log('ctxt connection.tsx');
   console.log('Started awaiting confirmation for', txid);
 
   let done = false;

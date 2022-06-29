@@ -86,6 +86,7 @@ export async function sendSignedTransaction({
     },
   );
 
+  console.log('cli transactions.tsx');
   log.debug('Started awaiting confirmation for', txid);
 
   let done = false;

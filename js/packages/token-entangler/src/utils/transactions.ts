@@ -111,6 +111,7 @@ export async function sendSignedTransaction({
     },
   );
 
+  console.log('te transactions.tsx');
   log.debug('Started awaiting confirmation for', txid);
 
   let done = false;
